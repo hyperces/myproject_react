@@ -1,10 +1,10 @@
 import React from 'react';
-import Counter from './Counter';
+import Say from './say';
 import './App.css'
 
 const App = () => {
   return (
-    <Counter/>
+    <Say/>
   );
 };
 
