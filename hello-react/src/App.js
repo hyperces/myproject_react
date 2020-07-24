@@ -1,11 +1,11 @@
 import React from 'react';
-import Say from './say';
+import EventPractice from './EventPractice';
 import './App.css'
 
 const App = () => {
   return (
-    <Say/>
-  );
+    <EventPractice/>
+  )
 };
 
 export default App;
