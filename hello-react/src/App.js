@@ -1,10 +1,14 @@
 import React from 'react';
-import EventPractice from './EventPractice';
+import ScrollBox from './ScrollBox';
 import './App.css'
 
 const App = () => {
   return (
-    <EventPractice/>
+    <div>
+      <ScrollBox ref={(ref) => this.ScrollBox=ref}/>
+      <button onClick={()=>this.ScrollBox.scrollToBottom()}
+      맨 밑으로/>
+    </div>
   )
 };
 
